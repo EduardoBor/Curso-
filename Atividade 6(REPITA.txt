@@ -1,0 +1,24 @@
+algoritmo "semnome"
+
+
+var
+
+cont, soma: inteiro
+
+inicio
+cont <- 1
+
+repita
+   se (cont mod 3 = 0) e (cont mod 2 = 0) entao
+
+      soma <- soma + cont
+
+   fimse
+
+   cont <- cont+1
+
+ate (cont=500)
+
+escreval("Soma: ", soma)
+
+fimalgoritmo
