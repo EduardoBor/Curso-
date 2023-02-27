@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "Eduardo"
 
 
 var
